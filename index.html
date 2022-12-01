@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Andy Cunningham</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -13,9 +14,46 @@
 
     <section class="welcome">
         <div class="main">
-            <p>Hello World!</p>
+            <h2>Hello World!</h2>
         </div>
     </section>
+
+    <section class = "container">
+      <form action = "formPost" id="form" method="POST">
+        <input type = "text" name = "username" placeholder = "Username" required>
+        <input type = "text" name = "name" placeholder = "some words" required>
+        <button type = "submit" class="btn">Submit</button>
+
+        <!--
+        <h1>Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email">
+        </div>
+        <input class="btn" type="submit" value="Submit">
+        -->
+      </form>
+
+      <ul id = 'users'>
+
+      </ul>
+      <!--
+        <ul class = "items">
+        <li class = "item">Item 1</li>
+        <li class = "item">Item 2</li>
+        <li class = "item">Item 3</li>
+      </ul>
+      -->
+      
+    </section>
+    
+
+    <script src="andfolio.js"></script>
     
     <!-- 
     <script src="messing-around-with-js.js"></script>
